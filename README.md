@@ -70,7 +70,7 @@ if (text != null) Text(text)
 # 4. Accelerate Flutter performance with Keys
 
 ```
-// good
+// FROM
 return value
    ? const SizedBox()
    : const Placeholder(),
