@@ -191,7 +191,7 @@ var discountText = 'Hello, ' + name + '! You have won a brand new ' + brand.name
 ### Good
 
 ```
-var discountText = 'Hello, $name! You have won a brand new ${brand.name} voucher! Please enter your email to redeem. The offer expires within ${timeRemaining} minutes.';
+var discountText = 'Hello, $name! You have won a brand new ${brand.name} voucher! Please enter your email to redeem. The offer expires within ${timeRemaining.toString()} minutes.';
 ```
 
 # 11. Use for/while instead of foreach/map
